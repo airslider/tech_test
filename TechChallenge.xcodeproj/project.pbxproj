@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3C296ECF26B31193006DF667 /* Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C296ECE26B31193006DF667 /* Angle.swift */; };
-		3C3FCAAF26C57C650092AB11 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C3FCAAE26C57C650092AB11 /* README.md */; };
 		3CE01C6226B2E59C0091B7BA /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE01C6126B2E59C0091B7BA /* RingView.swift */; };
 		3CE2268426B007D200B3D085 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2268326B007D200B3D085 /* App.swift */; };
 		3CE2268826B007D300B3D085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE2268726B007D300B3D085 /* Assets.xcassets */; };
@@ -63,7 +62,6 @@
 		3C296EDD26B4402A006DF667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C296F0B26B455F1006DF667 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C296F0D26B455F1006DF667 /* FloatingSummaryViewModel.tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingSummaryViewModel.tests.swift; sourceTree = "<group>"; };
-		3C3FCAAE26C57C650092AB11 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Resources/README.md; sourceTree = SOURCE_ROOT; };
 		3CE01C6126B2E59C0091B7BA /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		3CE2268026B007D200B3D085 /* TechChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE2268326B007D200B3D085 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
@@ -222,7 +220,6 @@
 			isa = PBXGroup;
 			children = (
 				3CE2268C26B007D300B3D085 /* Info.plist */,
-				3C3FCAAE26C57C650092AB11 /* README.md */,
 				3CE2268726B007D300B3D085 /* Assets.xcassets */,
 				9717E4B22841419700DD0F2F /* Localizable.strings */,
 			);
@@ -386,7 +383,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C3FCAAF26C57C650092AB11 /* README.md in Resources */,
 				9717E4B02841419700DD0F2F /* Localizable.strings in Resources */,
 				3CE2268826B007D300B3D085 /* Assets.xcassets in Resources */,
 			);
