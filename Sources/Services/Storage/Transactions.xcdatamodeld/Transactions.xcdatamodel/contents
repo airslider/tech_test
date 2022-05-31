@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CategoryDBDto" representedClassName="CategoryDBDto" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TransactionDBDto" inverseName="category" inverseEntity="TransactionDBDto"/>
+    </entity>
+    <entity name="TransactionDBDto" representedClassName="TransactionDBDto" syncable="YES" codeGenerationType="class">
+        <attribute name="accountName" attributeType="String"/>
+        <attribute name="amount" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="isPinned" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="provider" optional="YES" attributeType="String"/>
+        <attribute name="transactionId" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="category" maxCount="1" deletionRule="Nullify" destinationEntity="CategoryDBDto" inverseName="transactions" inverseEntity="CategoryDBDto"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="transactionId"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="CategoryDBDto" positionX="-54" positionY="0" width="128" height="59"/>
+        <element name="TransactionDBDto" positionX="-63" positionY="-9" width="128" height="149"/>
+    </elements>
+</model>

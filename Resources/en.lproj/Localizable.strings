@@ -1,0 +1,11 @@
+"transaction-tab-title" = "Transactions";
+"insights-tab-title" = "Insights";
+"category-all" = "all";
+"category-food" = "food";
+"category-health" = "health";
+"category-entertainment" = "entertainment";
+"category-shopping" = "shopping";
+"category-travel" = "travel";
+"summary-total-spent" = "Total spent:";
+"error-common" = "Something went wrong";
+"error-store" = "Store outage";
